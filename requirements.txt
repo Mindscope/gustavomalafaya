@@ -1,0 +1,22 @@
+CherryPy==3.2.2
+Django==1.4.1
+PIL==1.1.7
+South==0.7.5
+Whoosh==2.4.1
+cmsplugin-filer==0.8.0
+django-admin-tools==0.4.1
+django-classy-tags==0.3.4.1
+django-cms==2.3
+-e git+https://github.com/stefanfoulis/django-filer.git@c14df87b5a1d89160638f8e8f7ecc68028c515b1#egg=django_filer-dev
+django-haystack==1.2.7
+django-modeltranslation==0.3.3
+django-mptt==0.5.2
+django-polymorphic==0.2
+django-reversion==1.6.1
+django-sekizai==0.6.1
+django-shop==0.0.13
+django-wsgiserver==0.6.10
+easy-thumbnails==1.0.3
+html5lib==0.95
+psycopg2==2.4.5
+wsgiref==0.1.2

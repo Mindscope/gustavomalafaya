@@ -1,0 +1,11 @@
+.DS_Store
+env/
+*.pyc
+./media/
+./static/
+./backups/
+*.project
+*.pydevproject
+*.sass-cache
+.settings
+*/local_settings.py
