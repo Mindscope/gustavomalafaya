@@ -139,10 +139,12 @@ INSTALLED_APPS = (
     'admin_tools.menu',
     'admin_tools.dashboard',
     'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
+    'django.contrib.admin',
     'django.contrib.sites',
+    'django.contrib.comments',
+    'django.contrib.sessions',
     'django.contrib.messages',
+    'django.contrib.contenttypes',
     'django.contrib.staticfiles',
     'django.contrib.admin',
 
@@ -156,6 +158,8 @@ INSTALLED_APPS = (
     'easy_thumbnails',
     'reversion',
     'polymorphic',  # shop dependency
+    'tagging',
+    'zinnia',
 
     # plugins
     'cms.plugins.googlemap',
